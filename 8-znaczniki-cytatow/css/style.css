@@ -1,0 +1,38 @@
+/*usuwamy domyślne cytowanie dla przeglądarki - start*/
+
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote:before,
+blockquote:after {
+	content: "";
+}
+
+/* usuwamy domyslne cytowanie dla przegladarki - stop */
+
+/*definiujemy cytowanie dla poszczegolnych jezykow*/
+
+q:lang(en)::before,
+q:lang(en)::after {
+	content: '*';
+}
+
+q:lang(pl)::before,
+q:lang(pl)::after {
+	content: '"';
+}
+
+
+blockquote:lang(en)::before,
+blockquote:lang(en)::after {
+	content: '*';
+}
+
+blockquote:lang(pl)::before,
+blockquote:lang(pl)::after {
+	content: '"';
+}
+
+
