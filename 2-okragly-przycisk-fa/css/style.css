@@ -1,17 +1,18 @@
 .social-icon {
 	border: 1px solid black;
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 	border-radius: 50%;
 	background-color: bisque;
 	text-align: center;
-	line-height: 50px;
+	line-height: 100px;
 	transition: all .3s;
 	
 }
 
 .social-icon a {
 	color: black;
+	font-size: 3.5em;
 }
 
 .social-icon:hover {
