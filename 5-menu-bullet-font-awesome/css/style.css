@@ -1,0 +1,11 @@
+ul {
+	list-style: none;
+	padding: 5px;
+}
+
+
+li::before {
+	font-family: 'FontAwesome';
+	content: '\f0c2';
+	margin: 5px;
+}
