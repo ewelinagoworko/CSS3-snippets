@@ -1,0 +1,10 @@
+#rainbow {
+	background: red;
+	background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+}
+
+#rainbow {
+    width: 100vw;
+    height: 20vh;
+	margin: 0;
+}
