@@ -1,3 +1,7 @@
-a::first-line {
-	color: aqua;
+a[title=".doc"] {
+	color: red;
+}
+
+a[title=".docx"] {
+	color: green;
 }
